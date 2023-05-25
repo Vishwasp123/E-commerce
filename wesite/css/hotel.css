@@ -1,0 +1,471 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  word-wrap: break-word;
+}
+
+/*navbar*/
+
+.dropdown-item{
+  margin-bottom: 0px;
+  font-weight: 45px;
+
+}
+
+.dropdown-item:hover{
+  color: #aa8453;
+}
+
+
+.dropdown-menu .dropdown-item {
+  color: #ffefc1;
+  background:black;
+  
+  
+
+
+}
+.line{
+  top: 100%;
+}
+
+
+
+
+
+
+.navbar{
+  background: url(image/hote bg.jpg);
+  background: transparent;
+}
+
+.logo-wrapper {
+    float: left;
+    padding-left: 0px;
+    width:150px;
+   
+}
+
+
+
+.logo{
+  text: center;
+  padding: 0;
+  width: 3px;
+  height: 4px;
+  margin-bottom: 0px;
+}
+
+body{
+  height: 100vh;
+  min-height: 400px;
+  background-size: cover;
+  background-image: hotelbg.jpg;
+}
+
+
+.nav-link{
+
+  font-family: 'Barlow Condensed', sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+.nav-link:hover .dropdown-item:hover .nav-item:hover{
+  color:#9f7038;
+}
+
+.row {
+  display: flex;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: white;
+  margin-left: -15px;
+  margin-right: -15px;
+  flex-wrap: wrap;
+
+} 
+h1,h2,h3,h4,h5,h6,{
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 6px;
+  margin-bottom: 5px;
+} 
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: #666;
+  margin-bottom: 20px;
+  
+
+}
+.section-padding{
+  padding: 120px 0;
+}
+
+.lux{
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 6px;
+  margin-bottom: 5px;
+
+
+}
+
+
+.section-subtitle{
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 6px;
+  margin-bottom: 5px;
+
+}
+
+
+
+
+.section-title{
+  font-size: 45px;
+  font-family: 'Gilda Display', serif;
+  font-weight: 400;
+  color: #222;
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 3.25rem;
+}
+
+.mt-90 {
+  margin-top: 90px !important;
+}
+.mb{
+  margin-bottom: 30px !important;
+}
+
+ img {
+    width: 100%;
+    height: auto;
+}
+
+.text{
+  font-size:35px;
+  color: goldenrod ;
+
+}
+
+.pricing{
+  background-color: black;
+}
+
+.section-subtitle span {
+ color: #aa8453;
+ background:black;
+  
+}
+
+.section-title span {
+  font-size: 45px;
+  font-weight: 400;
+    color: #fff;
+}
+
+.Service{
+  background: black;
+}
+
+
+.color-2{
+  color: #fff;
+
+}
+
+ .desc{
+  padding: 40px;
+}
+.name{
+  color:goldenrod;
+}
+
+.facilities{
+  background: white;
+}
+
+.colour-3{
+  color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.colour-3:hover{
+  color: black;
+  -webkit-transition:.5s;
+  transition: 0.5s;
+}
+
+.facilities .facilities span{
+  font-size: 45px;
+  color: #aa8453;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: inline;
+  -webkit-transition: .5s;
+  transition: 0.5s;
+}
+
+.icon{
+  font-size: 45px;
+  font-weight: 40px;
+  text-align: center;
+  
+ 
+  position: relative;
+  color:#8f765e;
+}
+
+.border{
+  border: 2px solid darkgoldenrod;
+  text-align:center;
+  box-shadow:dimgray;
+}
+.border:hover{
+  color: white;
+}
+
+.team{
+  background: mintcream;
+}
+
+.button{
+  margin-top:2px;
+} 
+
+.carousel-indicators{
+  top: 100% !important;
+}
+
+.carousel-indicators button{
+  color: black;
+}
+
+
+/*<!-----Team---*/
+
+
+
+
+.full-width{
+  width: 100%;
+}
+
+.team .info .social a{
+  font-size: 15px;
+  color:#aa8453;
+  margin: 0 5px;
+}
+
+.team .item{
+  margin-bottom: 30px;
+
+}
+
+.team .item:hover .info .social{
+  top: 0%;
+
+
+}
+
+.team .info{
+  text-align: center;
+  padding: 30px 20px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+
+.team .info h6{
+  margin-bottom: 0px;
+  color: #666;
+}
+
+.team .info .social{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transition: all.4s;
+}
+
+.team .info .social a:hover{
+  color: #222;
+
+}
+
+.team .info .social p{
+  margin-bottom: 0px;
+  color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*dfjdfjkdhfdskfjudfdf*/
+
+.line{
+  width: 60px;
+  border-top: 1px solid rgba(255,255,255,0.2) !important;
+  margin-bottom: 10px;
+}
+
+.timage {
+  width: 80px;
+  height: 90px;
+  border-radius:50%;
+  float: left;
+  overflow: hidden;
+  margin-top: 2px;
+
+}
+
+.cont{
+  margin-left:95px;
+  color: #f2c028;
+}
+
+.cont i{
+  margin-bottom: em;
+  border-right: 0.3em solid transparent;
+  border-: 0.2em solid #e4a853;
+  margin-top: 0.5em;
+  }
+
+  .cont h6 {
+    
+    color: white;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    text-align: left;
+  }
+
+  .cont p{
+    color: white;
+    margin-right: 0.9em;
+    margin-left: 0.9em;
+    text-align: left;
+
+
+  }
+  .control1 button{
+    top: 100%;
+    overflow: hidden;
+    right: 100%;
+    left: 100%;
+    transition: 0.4s ;
+  }
+
+.footer{
+  position: relative;
+  display: block;
+  background: black;
+
+}
+
+.footer-top{
+  position: relative;
+  display: block;
+  background: #222;
+  padding: 90px 0px 60px 0px;
+}
+
+.globe{
+  margin-top: 50px;
+  color: whitesmoke;
+  border: 1px solid black;
+  border-width: ;
+}
+
+.globe option{
+  background: black;
+  color: white;
+  text-decoration: none;
+}
+.globel i:hover{
+  color: whitesmoke;
+}
+.globel i{
+  color: gray;
+}
+
+.English .globel option{
+  background: black;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+.Explore p{
+  margin: 0;
+}
+
+
+
+.phone-number span{
+  color: white;
+  position: relative;
+  width: 45px;
+
+}
+.footer-email{
+  color: gray;
+  font-size: 15px;
+  line-height: 3em;
+  display: inline-block;
+  transition: all 500ms;
+  font-family: 'Barlow', sans-serif;
+
+}
+
+.footer-icon{
+  padding: 0px 2px ;
+}
+
+.footer-copy-right a{
+  color: #9d9ea5;
+  background: black;
+  text-decoration: none;
+}
+
+.footer-copy-right a:hover{
+  color:#fcfcfd;
+  text-decoration: none;
+}
+
+.carousel-control-prev-icon{
+  margin-right: 100%;
+  margin-left: 100%;
+}

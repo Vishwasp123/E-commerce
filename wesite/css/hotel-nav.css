@@ -1,0 +1,523 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  word-wrap: break-word;
+}
+
+
+
+body{
+  font-family: 'Barlow',sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+  margin-bottom: 20px;
+  
+}
+
+p{
+  font-family: 'Barlow',sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.75em;
+  margin-bottom: 20px;
+}
+.navbar-brand{
+  font-size:45px ;
+  font-weight:;
+}
+.logo-img{
+  width: 160px;
+  margin-bottom: 0px;
+}
+.logo{
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+}
+/*banner-header*/
+
+.banner-header.caption{
+  position: relative;
+}
+
+.section-padding{
+  padding: 120px 0px;
+}
+
+.valign{
+  display: flex;
+  align-items: center;
+
+}
+
+/*navbar*/
+
+
+
+/*.bg-image{
+  background-image:url('image/bg1.jpg');
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+*/
+
+}
+
+
+.nav-item:hover ,
+.nav-link:hover{
+color:#7f724c;
+}
+
+.dropdown-menu {
+  background-color:white;
+  color: black ;
+  transition: all 0.4s;
+}
+
+.dropdown-menu:hover{
+  color: #aa8453;
+  transition: all 0.4s;
+}
+
+.dropdown-item:hover{
+  color: dark;
+}
+.navbar .navbar-nav .nav-link{
+  font-family: 'Barlow Condensed', sans-serif;;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: #fff;
+  margin: 3 px;
+  transition: all .4s;
+  text-align: left;
+}
+
+.dropdown .nav-link i{
+  padding-left: 0px;
+  font-size: 8px;
+}
+.navbar .navbar-nav .active {
+ color: #aa8453 !important;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.sub-menu .dropdown-item:hover {
+    background: transparent;
+    padding-left: 20px;
+    
+}
+
+.dropdown-menu .dropdown-item em,
+.sub-menu .dropdown-item em {
+  font-size: 10px;
+  background-color:   #aa8453;
+  padding: 3px 6px;
+  color: #fff;
+  border-radius: 0px;
+  position: absolute;
+  margin-left: 10px;
+  top: 7px;
+  font-style: normal;
+  line-height: 1.5em;
+}
+.navbar-nav .active {
+  color: #aa8453 !important;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.dropdown .nav-link{
+  cursor: pointer;
+}
+.dropdown .nav-link i{
+  padding-left: 0px;
+  font-size: 8px;
+}
+.dropdown-item span{
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-menu .dropdown-item em,
+.sub-menu.dropdown-item em{
+  font-size: 8px;
+  background-color: #222;
+  padding: 2px 4px;
+  color: #fff;
+  border-radius: 2px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+
+
+
+
+.dropdown-item:hover .active{
+  color:#aa8453;
+
+}
+.nav-item:hover .nav-link:hover {
+  color: #aa8453;
+}
+
+
+
+
+
+
+
+
+/*<!------------About------------>*/
+
+.hotel {
+  margin-top: 50%;
+  margin-bottom: 70%;
+}
+
+
+
+/*background-image*/
+
+
+
+.bg-fixed{
+  background-image: fixed;
+
+  margin-top: 0px;
+}
+.mt-90{
+
+  margin-top: 90px !important;
+}
+.row{
+  display: flex;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/*About*/
+
+.Luxury{
+  font-family: 'Gilda Display', serif;
+  font-weight: 400;
+ 
+}
+
+.us{
+  font-family: 'Gilda Display', serif;
+  
+  font-size: 60px;
+}
+
+.hotel{
+  font-size: 60px;
+
+}
+.luxury1{
+  
+
+}
+
+@media only screen and (max-width:800px) and (min-width: 300px){
+ .header{
+      background-image:url('image/bg1.jpg');
+      width: 100%;
+      
+      background-size: cover;
+      background-repeat: no-repeat;
+
+    
+
+
+}
+
+.collapse1{
+    position: absolute;
+    top: -40px;
+    z-index: 999;
+  }
+.luxury1{
+  margin-left: 5px;
+}
+
+}
+
+/*-----------------------About-------*/
+
+.star{
+  color: #a16527;
+  position: relative;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.9em;
+  margin-right: 0.9em;
+  margin-bottom: 2em;
+  border-bottom: 0.7em solid #e4a853;
+  border-left:transparent ;
+  font-size: 14px;
+}
+.checked {
+  color: orange;
+}
+.section-subtitle{
+    font-size: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 6px;
+    margin-bottom:  5px;
+}
+
+.section-title {
+  font-size: 35px;
+  font-family: 'Gilda Display',serif;
+  font-weight:  400;
+  color: #222;
+  position: relative;
+  line-height: 1.25em;
+  margin-bottom: 20px;
+}
+.flation-call{
+  font-size: 45px;
+ color: #aa8453;
+}
+
+.reservation{
+ font-family: 'Barlow Condensed', sans-serif;
+  display: flex;
+  align-items: center;
+}
+.reservation .number{
+  color: #8e6d45;;
+  background: transparent;
+  font-size: 15px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 1px;
+
+}
+
+
+/*<!-----EXtra Service-----*/
+
+.section-subtitle span{
+  color: #aa8453;
+}
+.section-title span{
+  color: white;
+}
+.color-1{
+  color: #d6d6d6;
+} 
+
+.phone{
+  color: #aa8453;
+
+}
+
+/*card*/
+.corousel1{
+  margin-bottom: -10%;
+
+}
+.control1{
+  margin-left: -10%;
+  margin-right:0%
+}
+
+.room1 .amount{
+  font-size: 45px;
+  line-height: 1;
+  margin: 0;
+  font-family: 'Gilda Display', serif;
+  margin-bottom: 20px;
+  color: #aa8453;
+}
+
+.list1{
+  color: #aa8453;
+}
+
+.list1 .list2{
+  font-size: 15px;
+  margin: 15px;
+  
+}
+
+.color3{
+  color: #aa8453;
+}
+
+
+ .carousel-indicators button{
+  border-radius:50%;
+  width: 5px;
+
+ }
+
+
+ /*-------------hotel facilities  ------*/
+
+.facilites1 img{
+  width: 50px;
+  margin: 5px;
+
+}
+
+.facilites1{
+  border: 1px solid gray;
+}
+/*------------------------ team-----------------------*/
+
+.carousel-btn button {
+  color: black;
+  border-radius: 50%;
+}
+
+.carousel-btn button:active{
+  color: #aa8453;
+  border-radius: 50%;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+.
+/*TESTIMONIALS*/
+
+
+
+
+.testinials {
+  background: url(image/bg-2.jpg);
+ background-image: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;*/
+  /*background-size: 100% 100% ;
+  background-position:100% ;*/*/
+}
+
+.testimonials-box .head-box h6{
+  font-size: 12px;
+  font-family: 'Barlow condensed',sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+
+}
+.testimonials-box .head-box h4{
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.testimonials-box .iteam .info .author-img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+  overflow: hidden;
+}
+.author-img{
+   width: 80px;
+  height: 90px;
+  border-radius:50%;
+  float: left;
+  overflow: hidden;
+  margin-top: 2px;
+}
+
+.line{
+ width: 80px;
+}
+
+.cont{
+  color: #f4c430;
+}
+
+.info h6{
+  color: white;
+  margin-left: 2px;
+}
+
+.info {
+  color: white;
+ }
+
+/* -------------footer----- */
+
+
+
+ .hotel2 h3{
+   font-family: 'Gilda Display', serif; 
+   font-weight: 400;
+   line-height: 1.25rem ;
+   font-size: 24px;
+   position: relative;
+ }
+
+ .hotel2 p{
+  color: #adadad;
+  font-size: 15px;
+  line-height: 1.75rem;
+ }
+
+.Explore1{
+  
+  color:#adadad;
+  margin:0px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 1.75rem;
+}
+
+.contact-number{
+  font-family: 'Gilda Display', serif; 
+  margin-left: 3px;
+  font-size: 25px;
+
+}
+.footer-email p{
+  color:goldenrod !important ;
+}
+.line2{
+  border-bottom:1px solid goldenrod;
+  width: 50px;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
